@@ -1,0 +1,28 @@
+{
+  "name": "submission-08-openmusic-api-v1",
+  "version": "1.0.0",
+  "description": "OpenMusic API v1 (Hapi, PostgreSQL, Joi, node-pg-migrate)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate:create": "node-pg-migrate create",
+    "migrate:up": "node-pg-migrate up",
+    "migrate:down": "node-pg-migrate down",
+    "migrate:reset": "node-pg-migrate reset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.3",
+    "dotenv": "^17.2.2",
+    "joi": "^18.0.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "node-pg-migrate": "^8.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
