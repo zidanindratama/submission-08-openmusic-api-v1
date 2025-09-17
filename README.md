@@ -135,7 +135,7 @@ openmusic-api-v1/
 3. **Migrasi DB**
 
    ```bash
-   npm run migrate:up
+   npm run migrate
    ```
 
 4. **Start Server**
